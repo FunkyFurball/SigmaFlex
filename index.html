@@ -5,309 +5,365 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simple Flex</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
-                <a href="#"><img src="images/logo.png" alt="Simple Flex logo"></a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div="wrapper">
-            <div>
-                <h1>Everything <span>you need</span></h1>
-                <p>Simpleflex is the best solution for you so you can present your business and services properly.</p>
-                <a href="#">Purchase this theme</a>
+    <header class="main-header" id="home">
+        <nav class="main-nav">
+            <a href="#home" class="main-nav__logo">
+                <img src="images/logo.png" alt="Simple Flex logo">
+            </a>
+            <div class="main-nav__space"></div>
+            <ul class="main-nav__list">
+                <li><a href="#home" class="main-nav__list__link">Home</a></li>
+                <li><a href="#about" class="main-nav__list__link">About</a></li>
+                <li><a href="#portfolio" class="main-nav__list__link">Portfolio</a></li>
+                <li><a href="#blog" class="main-nav__list__link">Blog</a></li>
+                <li><a href="#contact" class="main-nav__list__link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <div class="main-header__container">
+                <div class="main-header__container__container-1">
+                    <h1 class="heading-1 heading--general">Everything
+                    <span class="span__heading-1--contrast  heading--contrast">you need</span></h1>
+                    <p class="paragraph paragraph--left-align">Simpleflex is the best solution for you so you can present your business and services properly.</p>
+                    <a href="#" class="button button--dark-font">Purchase this theme</a>
+                </div>
+        
+                <div class="main-header__container__container-2">
+                    <img src="images/mockup-1.png" alt="Image of phone with mobile page loaded.">
+                </div>
             </div>
-    
-            <div>
-                <img src="images/mockup-1.png" alt="Image of phone with mobile page loaded.">
-            </div>
         </div>
-    </header>
 
     <main>
-        <section class="section-1">
-            <div>
-                <h1>About us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A commodi, at id ad mollitia dolorum maxime!</p>
-                <div>
-                    <img src="images/icon-modern.png" alt="Image of rotating arrows.">
-                    <h3>Modern</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
+        <section class="section-1" id="about">
+            <div class="insideWrapper">
+                <h2 class="heading-2">About us</h2>
+                <p class="paragraph heading__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A commodi, at id ad mollitia dolorum maxime!</p>
+            </div>
+            
+            <div class="wrapper">
+                <div class="container section-1__container">
+                    <div class="section-1__container--box">
+                        <img src="images/icon-modern.png" alt="Image of rotating arrows.">
+                        <h4 class="heading-4 heading--contrast">Modern</h4>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
+                    </div>
+                    <div class="section-1__container--box">
+                        <img src="images/icon-simple.png" alt="Image of flag.">
+                        <h4 class="heading-4 heading--contrast">Simple</h4>
+                        <p class="paragraph">Non distinctio corrupti odio perferendis nihil, quis numquam harum dolorum.</p>
+                    </div>
+                    <div class="section-1__container--box">
+                        <img src="images/icon-flexible.png" alt="Image of desktop to mobile interchangeablility.">
+                        <h4 class="heading-4  heading--contrast">Flexible</h4>
+                        <p class="paragraph">Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/icon-simple.png" alt="Image of flag.">
-                    <h3>Simple</h3>
-                    <p>Non distinctio corrupti odio perferendis nihil, quis numquam harum dolorum.</p>
-                </div>
-                <div>
-                    <img src="images/icon-flexible.png" alt="Image of desktop to mobile interchangeablility.">
-                    <h3>Flexible</h3>
-                    <p>Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
-                </div>
+                <span class="quotation-marks heading--general">"</span>
+
             </div>
         </section>
 
         <section class="section-2">
-            <div>
-                <h1>Our skills</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A commodi, at id ad mollitia dolorum maxime!</p>
-                <div>
-                    <img src="images/circle-1.png" alt="Image of rotating arrows.">
-                    <h3>Web Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
-                </div>
-                <div>
-                    <img src="images/circle-2.png" alt="Image of flag.">
-                    <h3>WordPress</h3>
-                    <p>Non distinctio corrupti odio perferendis nihil, quis numquam harum dolorum.</p>
-                </div>
-                <div>
-                    <img src="images/circle-3.jpg" alt="Image of desktop to mobile interchangeablility.">
-                    <h3>jQuery</h3>
-                    <p>Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
-                </div>
-                <div>
-                    <img src="images/circle-4.jpg" alt="Image of desktop to mobile interchangeablility.">
-                    <h3>HTML/CSS</h3>
-                    <p>Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
+            <div class="">
+                <h2 class="heading-2">Our skills</h2>
+                <p class="paragraph heading__paragraph">AIR is focusing on <br> Web Design/ WP Development/ HTML Integration</p>
+            </div>
+            <div class="wrapper">
+                <div class="container section-2__container">
+                    <div class="section-2__container--box">
+                        <img src="images/circle-1.png" alt="Image of rotating arrows.">
+                        <h4 class="heading-4  heading--contrast">Web Design</h4>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
+                    </div>
+                    <div class="section-2__container--box">
+                        <img src="images/circle-2.png" alt="Image of flag.">
+                        <h4 class="heading-4  heading--contrast">WordPress</h4>
+                        <p class="paragraph">Non distinctio corrupti odio perferendis nihil, quis numquam harum dolorum.</p>
+                    </div>
+                    <div class="section-2__container--box">
+                        <img src="images/circle-3.png" alt="Image of desktop to mobile interchangeablility.">
+                        <h4 class="heading-4  heading--contrast">jQuery</h4>
+                        <p class="paragraph">Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
+                    </div>
+                    <div class="section-2__container--box">
+                        <img src="images/circle-4.png" alt="Image of desktop to mobile interchangeablility.">
+                        <h4 class="heading-4  heading--contrast">HTML/CSS</h4>
+                        <p class="paragraph">Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="section-3">
-            <h1 class="section-3--quotation">Design to express, not to impress.</h1>
+            <!-- <div class="insideWrapper"> -->
+                <span class="heading--general span--quotation">Design to express,
+                 not to impress.</span> 
+                <span class="heading--contrast span--author">John Tanedo</span>
+            <!-- </div>  -->
         </section>
 
-        <section class="section-4">
-            <h1>Latest projects</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nam aspernatur atque numquam optio omnis repudiandae.</p>
-            <div><img src="images/mockup-2.png" alt="example of web design on latest project"></div>
+        <section class="section-4" id="portfolio">
+            <div class="insideWrapper">
+                <h2 class="heading-2">Latest projects</h2>
+                <p class="paragraph heading__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nam aspernatur atque numquam optio omnis repudiandae.</p>
+            </div>
+            <div classs="section-4__main-image">
+                <img src="images/mockup-2.png" alt="example of web design on latest project">
+                <img src="images/mockup-3.png" alt="example of web design on latest project"></div>
+            </div>
         </section>
         <section class="section-5">
-            <h1>Meet the team</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam eaque vel id deserunt perspiciatis? Maxime, culpa.</p>
-            <div>
-                <div>
-                    <img src="images/headshot-1.png" alt="Headshot of smiling staff member.">
-                    <div>
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                    </div>
-                </div>
+            <div class="insideWrapper">
+                <h2 class="heading-2">Meet the team</h2>
+                <p class="paragraph heading__paragraph">A proud group of individuals who came together in a perfect unity to present you with this.</p>
             </div>
-            <div>
-                <div>
-                    <img src="images/headshot-2.png" alt="Headshot of smiling staff member.">
-                    <div>
-                        <i></i>
-                        <i></i>
-                        <i></i>
+            <div class="wrapper">
+                <div class="container section-5__container">
+                    <div class="section-5__container--box">
+                        <img src="images/headshot-1.png" alt="Headshot of smiling staff member.">
+                        <div class="section-5__container--icons">
+                            <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p fa-fw"></i></a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="images/headshot-3.png" alt="Headshot of smiling staff member.">
-                    <div>
-                        <i></i>
-                        <i></i>
-                        <i></i>
+                
+                    <div class="section-5__container--box">
+                        <img src="images/headshot-2.png" alt="Headshot of smiling staff member.">
+                        <div class="section-5__container--icons">
+                            <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-dribbble fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p fa-fw"></i></a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="images/headshot-4.png" alt="Headshot of smiling staff member.">
-                    <div>
-                        <i></i>
-                        <i></i>
-                        <i></i>
+                    
+                    <div class="section-5__container--box">
+                        <img src="images/headshot-3.png" alt="Headshot of smiling staff member.">
+                        <div class="section-5__container--icons">
+                            <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-flickr fa-fw"></i></a>
+                        </div>
+                    </div>
+                    <div class="section-5__container--box">
+                        <img src="images/headshot-4.png" alt="Headshot of smiling staff member.">
+                        <div class="section-5__container--icons">
+                            <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         
         <section class="section-6">
-            <div>
-                <img src="images/icon-1.png" alt="Person icon representing client.">
-                <span>2500</span>
-                <a href="#">Happy clients</a>
-            </div>
-            <div>
-                <img src="images/icon-2.png" alt="Lightbulb icon representing projects made.">
-                <span>650</span>
-                <a href="#">Projects made</a>
-            </div>
-            <div>
-                <img src="images/icon-3.png" alt="Paper plane icon representing letters sent.">
-                <span>5780</span>
-                <a href="#">Letters sent</a>
-            </div>
-            <div>
-                <img src="images/icon-4.png" alt="Pencil icon representing briefs written.">
-                <span>3400</span>
-                <a href="#">Briefs wrote</a>
+            <div class="wrapper">
+                <div class="container section-6__container">
+                    <div class="section-6__container--box">
+                        <img src="images/icon-1.png" alt="Person icon representing client.">
+                        <span class="span span__counter heading--general">2500</span>
+                        <span class="span span__counter--description">Happy clients</span>
+                    </div>
+                    <div class="section-6__container--box">
+                        <img src="images/icon-2.png" alt="Lightbulb icon representing projects made.">
+                        <span class="span span__counter heading--general">650</span>
+                        <span class="span span__counter--description">Projects made</span>
+                    </div>
+                    <div class="section-6__container--box">
+                        <img src="images/icon-3.png" class="section-6__container--padding" alt="Paper plane icon representing letters sent.">
+                        <span class="span span__counter heading--general">5780</span>
+                        <span class="span span__counter--description">Letters sent</span>
+                    </div>
+                    <div class="section-6__container--box">
+                        <img src="images/icon-4.png" class="section-6__container--padding" alt="Pencil icon representing briefs written.">
+                        <span class="span span__counter heading--general">3400</span>
+                        <span class="span span__counter--description">Briefs wrote</a>
+                    </div>
+                </div>
             </div>
         </section>
 
 
         <section class="section-7">
-            <h1>Our portfolio</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquam non vel, fuga doloremque iste dolor?</p>
-            <div>
-                <a href="#">All</a>
-                <a href="#">Videos</a>
-                <a href="#">Illustrations</a>
-                <a href="#">Print</a>
-                <a href="#">Misc</a>
+            <div class="insideWrapper">
+                <h2 class="heading-2">Our portfolio</h2>
+                <p class="paragraph heading__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquam non vel, fuga doloremque iste dolor?</p>
+                <div class="section-7___nav heading--general">
+                    <a href="#" class="section-7__nav--links">All</a>
+                    <a href="#" class="section-7__nav--links">Videos</a>
+                    <a href="#" class="section-7__nav--links">Illustrations</a>
+                    <a href="#" class="section-7__nav--links">Print</a>
+                    <a href="#" class="section-7__nav--links">Misc</a>
+                </div>
             </div>
-            <div>
-                <figure>
-                    <img src="images/portfolio-1.png" alt="">
-                    <figcaption>Kopazito</figcaption>
+            <div class="container container--large heading--general">
+                <figure class"section-7__figure">
+                    <img src="images/portfolio-1.png" alt="Kopazito">
+                    <figcaption class="section-7__figcaption ">Kopazito</figcaption>
                 </figure>
-               <figure>
-                   <img src="images/portfolio-2.png" alt="">
-                    <figcaption>I love picles</figcaption>
+                <figure class"section-7__figure">
+                    <img src="images/portfolio-2.png" alt="I love picles">
+                    <figcaption class="section-7__figcaption">I love picles</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/portfolio-3.png" alt="">
-                    <figcaption>Shotmen</figcaption>
+                <figure class"section-7__figure">
+                    <img src="images/portfolio-3.png" alt="Shotmen">
+                    <figcaption class="section-7__figcaption">Shotmen</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/portfolio-4.png" alt="">
-                    <figcaption>Voodoo</figcaption>
+                <figure class"section-7__figure">
+                    <img src="images/portfolio-4.png" alt="Voodoo">
+                    <figcaption class="section-7__figcaption">Voodoo</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/portfolio-5.png" alt="">
-                    <figcaption>Barbapapa</figcaption>
+                <figure class"section-7__figure">
+                    <img src="images/portfolio-5.png" alt="Barbapapa">
+                    <figcaption class="section-7__figcaption">Barbapapa</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/portfolio-6.png" alt="">
-                    <figcaption>Ron Weasley</figcaption>
+                <figure class"section-7__figure">
+                    <img src="images/portfolio-6.png" alt="Ron Weasley">
+                    <figcaption class="section-7__figcaption">Ron Weasley</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/portfolio-7.png" alt="">
-                    <figcaption>My diamond returns!</figcaption>
+                <figure class"section-7__figure">
+                    <img src="images/portfolio-7.png" alt="My diamond returns!">
+                    <figcaption class="section-7__figcaption">My diamond returns!</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/portfolio-8.png" alt="">
-                    <figcaption>I can pay my bills</figcaption>
+                <figure class"section-7__figure">
+                    <img src="images/portfolio-8.png" alt="I can pay my bills!">
+                    <figcaption class="section-7__figcaption">I can pay my bills</figcaption>
                 </figure>
+                <a href="#" class="button button--light-font">Load more</a>
             </div>
-            <a href="#">Load more</a>
         </section>
 
-        <section class="section-8">
-            <h1>Our blog</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt inventore magni distinctio minima asperiores consectetur?</p>
-            <div>
-                <img src="images/blog-1.png" alt="Post with image">
-                <h3>Post with image</h3>
-                <h4>Dec 29, 2013</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil temporibus consectetur blanditiis.</p>
+        <section class="section-8" id="blog">
+            <div class="insideWrapper">
+                <h2 class="heading-2">Our blog</h2>
+                <p class="paragraph heading__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt inventore magni distinctio minima asperiores consectetur?</p>
             </div>
 
-            <div>
-                <div>
-                    <img src="images/blog-2.png" alt="Post with video">
-                    <h3>Post with video</h3>
-                    <h4>Dec 24, 2013</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium et molestiae illo earum.</p>
+            <div class="container section-8__container">
+                <div class="container section-8__container--container-1">
+                    <img src="images/blog-1.png" alt="Post with image">
+                    <h4 class="heading-4  heading--contrast">Post with image</h4>
+                    <p class="paragraph heading--contrast">Dec 29, 2013</p>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil temporibus consectetur blanditiis.</p>
                 </div>
-
-                <div>
-                    <img src="images/blog-3.png" alt="Post with Slider">
-                    <h3>Post with Slider</h3>
-                    <h4>Dec 17, 2013</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+    
+                <div class="container section-8__container--container-2">
+                    <div class="section-8__container--container-2--small-box clearfix">
+                        <img src="images/blog-2.png" alt="Post with video">
+                        <h4 class="heading-4  heading--contrast">Post with video</h4>
+                        <p class="paragraph heading--contrast">Dec 24, 2013</p>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+                    </div>
+    
+                    <div class="section-8__container--container-2--small-box clearfix">
+                        <img src="images/blog-3.png" alt="Post with Slider">
+                        <h4 class="heading-4  heading--contrast">Post with Slider</h4>
+                        <p class="paragraph heading--contrast">Dec 17, 2013</p>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+                    </div>
                 </div>
             </div>
-            <a href="#">View all</a>
+            <div class="wrapper"><a href="#" class="button button--light-font">View all</a></div>
         </section>
         <section class="section-9">
-            <h2>+91 544 567 8943</h2>
-            <h1>info@simpleflex.com</h1>
-            <h3>8605 Santa Monica Blvd, Los Angeles, California 97845, US</h3>
-        </section>
-        <section class="section-10">
-            <img src="images/map.png" alt="Map showing location of Simple Flex.">
+            <div class="wrapper">
+                <h3 class="heading-3 heading--general heading--contrast">+91 544 567 8943</h3>
+                <h2 class="heading-2 button heading-2--contrast button--dark-font">info@simpleflex.com</h2>
+                <h4 class="heading-4 heading--contrast">8605 Santa Monica Blvd, Los Angeles, California 97845, US</h4>
+            </div>
+                <img src="images/map.png" alt="Map showing location of Simple Flex.">
         </section>  
     </main>
 
     <footer>
-        <section class="footer-section-1">
-            <h1>Get in touch</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque velit delectus nobis, maxime accusamus et?</p>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <form action="#" method="POST" name="contact">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="name">
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="email">
-                <label for="message">Message</label>
-                <input type="text" id="message" placeholder="message">
-                <input type="submit" value="send">
-            </form>
-        </section>
-        <section class="footer-section-2">
-            <div>
-                <h3>Text Widget</h3>
+        <section class="footer-section-1" id="contact">
+            <div class="insideWrapper">
+                <h2 class="heading-2">Get in touch</h2>
+                <p class="paragraph heading__paragraph">Feel free to contact us at any time!</p>
             </div>
-            <div>
-                <h3>Recent Posts</h3>
-                <div>
-                    <img src="images/footer-1.png" alt="Recent post 1.">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                    <h4>Dec 31, 2013</h4>
+            <div class="wrapper">
+                <div class="footer-section-1__container--icons">
+                    <a href="#">
+                        <i class="fab fa-facebook-f fa-fw"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter fa-fw"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-flickr fa-fw"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-google-plus-g fa-fw"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in fa-fw"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-dribbble fa-fw"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest-p fa-fw"></i>
+                    </a>
                 </div>
-                <div>
-                    <img src="images/footer-2.png" alt="Recent post 2.">
-                    <h4>Lorem ipsum dolor sit amet.</h4>
-                    <h4>Dec 18, 2013</h4>
-                </div>
-                <div>
-                    <img src="images/footer-3.png" alt="Recent post 3.">
-                    <h4>Lorem ipsum dolor sit amet.</h4>
-                    <h4>Nov 29, 2013</h4>
-                </div>
-            </div>
-            <div>
-                <h3>Our Newsletter</h3>
-                <p>Please subscribe to our latest news to be updated</p>
-                <form action="" method="POST" name="newsletter">
-                    <input type="text">
-                    <input type="submit">
+                <form action="#" method="POST" name="contact" class="footer-section-1__form" autocomplete="off">
+                    <label for="name" class="visuallyhidden">Name</label>
+                    <input type="text" id="name" placeholder="name">
+                    <label for="email" class="visuallyhidden">Email</label>
+                    <input type="text" id="email" placeholder="email">
+                    <label for="message" class="visuallyhidden">Message</label>
+                    <textarea name="message" rows="10" id="message" placeholder="message"></textarea>
+                   <input type="submit" value="send" class="submit--1 button--light-font">
                 </form>
             </div>
-            <div>
-                <h3>Flickr Widget</h3>
-                <img src="images/footer-4.png" alt="Flickr images.">
+        </section>
+        <section class="footer-section-2">
+            <div class="wrapper container">
+                <div class="footer-section-2__container footer-section-2__container-1">
+                    <h4 class="heading-4 paragraph--left-align paragraph--dark">Text Widget</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ullam libero ipsa! Doloribus, quae iure libero inventore consequuntur mollitia eligendi blanditiis molestias quaerat dolore corporis.</p>
+                </div>
+                <div class="footer-section-2__container footer-section-2__container-2">
+                    <h4 class="heading-4 paragraph--left-align paragraph--dark">Recent Posts</h4>
+                    <div class="article clearfix">
+                        <img src="images/footer-1.png" alt="Recent post 1.">
+                        <p class="paragraph paragraph--left-align paragraph--dark">Lorem ipsum dolor sit amet. </p>
+                        <p class="paragraph paragraph--left-align">Dec 31, 2013</p>
+                    </div>
+                    <div class="article clearfix">
+                        <img src="images/footer-2.png" alt="Recent post 2.">
+                        <p class="paragraph paragraph--left-align paragraph--dark"> Lorem ipsum dolor sit amet.</p>
+                        <p class="paragraph paragraph--left-align">Dec 18, 2013</p>
+                    </div>
+                    <div class="article clearfix">
+                        <img src="images/footer-3.png" alt="Recent post 3.">
+                        <p class="paragraph paragraph--left-align paragraph--dark">Lorem ipsum dolor sit amet.</p>
+                        <p class="paragraph paragraph--left-align">Nov 29, 2013</p>
+                    </div>
+                </div>
+                <div class="footer-section-2__container footer-section-2__container-3">
+                    <h4 class="heading-4 paragraph--left-align paragraph--dark">Our Newsletter</h4>
+                    <p class="paragraph paragraph--left-align">Please subscribe to our latest news to be updated</p>
+                    <form action="" method="POST" name="newsletter">
+                        <input type="text">
+                        <input type="submit" value="send" class="submit--2">
+                    </form>
+                </div>
+                <div class="footer-section-2__container footer-section-2__container-4">
+                    <h4 class="heading-4 paragraph--left-align paragraph--dark">Flickr Widget</h4>
+                    <img src="images/footer-4.png" alt="Flickr images.">
+                </div>
             </div>
         </section>
         <section class="footer-section-3">
-            <p>&copy; Copyright 2014 Simpleflex Template by DX Templates, coded by Li Ying Lim</p>
+            <p class="paragraph">&copy; Copyright 2014 Simpleflex Template by <span class="span__footer--contrast">DX Templates</span>, coded by <span class="span__footer--contrast">Li Ying Lim</span></p>
         </section>
     </footer>
-
 </body>
 </html>
