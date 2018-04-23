@@ -68,7 +68,7 @@ input.submit--2{
 }
 
 .heading-1 {
-    @include font-size(78);/* changed from 80 to 72 */
+    @include font-size(78);/* changed from 80 to 78 */
     letter-spacing: -15px;
     color: #343434;
     line-height: 97px; /* changed from 65px to 97px */
@@ -133,27 +133,35 @@ input.submit--2{
 .span--quotation {
     color: #343434;
     @include font-size(52); /* changed from 60 to 52 */
-    line-height: 55px;
+    line-height: 80px; /* changed from 55px */
     text-transform: none;
-    letter-spacing: -7px; /* added */
+    letter-spacing: -4px; /* added */
     text-align: center;
     display: block;
+    position: relative;
 
-}
-.span--quotation:after {
-    content:"”";
-    @include font-size(140);
-    color: white;   
 }
 .span--quotation:before {
     content:"“";
     @include font-size(140);
     color: white;
+    position: absolute;
+    top:0px;
+    left:-100px;
+}
+
+.span--quotation:after {
+    content:"”";
+    @include font-size(140);
+    color: white;  
+    position: absolute; 
+    top: 0;
+    right: -100px;
 }
 
 .span--author {
     @include font-size(32); /* changed from 40 to 32 */
-    line-height:55px;
+    line-height:80px; /* changed from 55px */
     text-transform: none;
     text-align: center;
     display:block;

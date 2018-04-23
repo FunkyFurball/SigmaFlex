@@ -13,26 +13,6 @@ h2 {
     margin: 0;
 }
 
-.main-header__container, section {
-    padding-top: 100px;
-}
-
-.main-header__container, 
-section:not(.section-4):not(.section-9):not(.footer-section-3) {
-   padding-bottom: 100px;
-}
-
-.wrapper {
-    // max-width: 1253px;
-    max-width:1500px;
-    margin: 0 auto;
-}
-
-.insideWrapper{
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 img {
     display: block;
     margin: 0 auto;
@@ -72,18 +52,44 @@ img {
     @include background(#a9d264, #a4cb61);
 }
 
+// WRAPPER STYLES
+.wrapper {
+    // max-width: 1253px;
+    // max-width:1500px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.insideWrapper{
+    max-width: 800px;
+    // width: 42%;
+    margin: 0 auto;
+}
+
 // CONTAINER STYLES
 .container {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
     max-width: 1170px;
+    // width: 60%;
 }
 
 .container--large {
     max-width:1920px;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+
+
+// PADDING ON SECTIONS
+.main-header__container, section {
+    padding-top: 100px;
+}
+
+.main-header__container, 
+section:not(.section-4):not(.section-9):not(.footer-section-3) {
+   padding-bottom: 100px;
 }
 
 // HEADER STYLES
@@ -221,6 +227,10 @@ img.section-6__container--padding {
     .button--light-font {
        margin: 50px auto;
     }
+}
+
+figure {
+    width: 25%;
 }
 
     // SECTION 8 STYLES
