@@ -1,0 +1,53 @@
+//  TRIANGLE
+.main-header {
+    position: relative;
+}
+
+.main-header::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    border-color: #fbd061  #f3ca5e transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: calc(100% - 25px);
+    left: 48.6%;
+    transform: rotateZ(-45deg);
+}
+.section-3 {
+    position: relative;
+}
+
+.section-3::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    border-color: #ff7070  #f76c6c transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: calc(100% - 25px);
+    left: 48.6%;
+    transform: rotateZ(-45deg);
+}
+
+.section-6 {
+    position: relative;
+}
+
+.section-6::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    border-color: #a9d264  #a4cb61 transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: calc(100% - 25px);
+    left: 48.6%;
+    transform: rotateZ(-45deg);
+}

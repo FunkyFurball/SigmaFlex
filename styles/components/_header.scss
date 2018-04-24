@@ -1,0 +1,57 @@
+// HEADER STYLES
+    // Navigation
+.main-nav .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-nav__logo {
+    width: 20%;
+}
+
+.main-nav__space{
+    min-width:30%;
+}
+
+.main-nav__list {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+    // MAIN HEADER
+.main-header__container {
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 75vh;
+    &__container-1 {
+        width: 50%;
+        margin-left: 5%;
+        .heading-1 {
+            margin: 30px auto;
+        }
+
+        .paragraph {
+           padding-bottom: 50px;
+        }
+
+        .button {
+            margin: 50px auto;
+        }
+    }
+
+    &__container-2 {
+        margin-right: 5%;
+        width: calc(50% - 5%);
+        position: relative;
+        img {
+            position: absolute;
+            top:0;
+            right: 20%;
+            z-index:1;
+        }
+    }
+}

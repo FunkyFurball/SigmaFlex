@@ -1,0 +1,46 @@
+.section-5__container--icons,
+.section-8__container--icons,
+.footer-section-1__container--icons {
+    .fa-fw {
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        color: white;
+        margin: 0 5px;
+    }
+    
+    .fa-facebook-f {
+        background: #4f7dbf;
+    }
+    
+    .fa-twitter {
+        background: #00adef;
+    }
+    
+    .fa-pinterest-p {
+        background: #cf191a;
+    }
+
+    .fa-google-plus-g {
+        background: #cc4234;
+    }
+
+    .fa-dribbble {
+        background: #f7679a;
+    }
+
+    .fa-flickr {
+        background:#ff0085;
+    }
+
+    .fa-linkedin-in {
+        background: #00649c;
+    }
+}
+
+.section-8__container--icons {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,100 @@
+// FOOTER STYLES
+    // FOOTER SECTION 1
+.footer-section-1 {
+    .wrapper {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__form {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        input[type=text],
+        textarea {
+            transition: all 0.5s ease;
+        }
+
+        input[type=text]:focus, 
+        textarea:focus {
+            border: 3px solid #f3ca5e;
+            box-shadow:0 0 5px #f3ca5e;
+            transform: scale(1.1);
+        }
+
+        textarea,
+        input:not(:last-child) {
+            width: 100%;
+            background: #2b2b2b;
+            border: none;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        textarea[placeholder],
+        input[placeholder]{
+            @include font-size(16);
+            text-align: center;
+            color: #989898;
+            text-transform: capitalize;
+        }
+            input[type=submit] {
+            margin-top: 20px;
+        }
+    }
+}
+    // FOOTER SECTION 2
+.footer-section-2 {
+    &__container{
+        width: 25%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__container{
+        max-width: calc(25% - 15px); 
+        margin: 15px;
+    }
+
+    &__container-2 {
+        .article {
+            margin-bottom: 25px;
+        }
+        .article img {  
+            float: left;
+            width: calc(50% - 5px);
+            margin-right: 5px;
+            
+        }
+
+        .article p {
+            margin: 0 15px 0 10px;
+            width: calc(50% - 25px);
+            float: left;
+            display:inline-block;
+        }
+    }
+
+    &__container-3 {
+        form {
+            width: 100%;
+            input[type=text]{
+                padding: 25px 20px;
+                background:#eee;
+                border: none;
+                width: calc(62% - 5px);
+                margin-right: 5px;
+            }
+        }
+    }
+}
+    // FOOTER SECTION 3
+.footer-section-3 {
+    text-align: center;
+    padding: 50px 0;
+}

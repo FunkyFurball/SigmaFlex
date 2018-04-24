@@ -12,32 +12,34 @@
 <body>
     <header class="main-header" id="home">
         <nav class="main-nav">
-            <a href="#home" class="main-nav__logo">
-                <img src="images/logo.png" alt="Simple Flex logo">
-            </a>
-            <div class="main-nav__space"></div>
-            <ul class="main-nav__list">
-                <li><a href="#home" class="main-nav__list__link">Home</a></li>
-                <li><a href="#about" class="main-nav__list__link">About</a></li>
-                <li><a href="#portfolio" class="main-nav__list__link">Portfolio</a></li>
-                <li><a href="#blog" class="main-nav__list__link">Blog</a></li>
-                <li><a href="#contact" class="main-nav__list__link">Contact</a></li>
-            </ul>
+            <div class="wrapper">
+                <a href="#home" class="main-nav__logo">
+                    <img src="images/logo.png" alt="Simple Flex logo">
+                </a>
+                <div class="main-nav__space"></div>
+                <ul class="main-nav__list">
+                    <li><a href="#home" class="main-nav__list__link">Home</a></li>
+                    <li><a href="#about" class="main-nav__list__link">About</a></li>
+                    <li><a href="#portfolio" class="main-nav__list__link">Portfolio</a></li>
+                    <li><a href="#blog" class="main-nav__list__link">Blog</a></li>
+                    <li><a href="#contact" class="main-nav__list__link">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="wrapper">
             <div class="main-header__container">
                 <div class="main-header__container__container-1">
                     <h1 class="heading-1 heading--general">Everything
-                    <span class="span__heading-1--contrast  heading--contrast">you need</span></h1>
+                    <span class="span__heading-1--contrast  heading--contrast">you&nbsp;need</span></h1>
                     <p class="paragraph paragraph--left-align">Simpleflex is the best solution for you so you can present your business and services properly.</p>
                     <a href="#" class="button button--dark-font">Purchase this theme</a>
                 </div>
-        
                 <div class="main-header__container__container-2">
                     <img src="images/mockup-1.png" alt="Image of phone with mobile page loaded.">
                 </div>
             </div>
         </div>
+    </header>
 
     <main>
         <section class="section-1" id="about">
@@ -46,56 +48,58 @@
                 <p class="paragraph heading__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A commodi, at id ad mollitia dolorum maxime!</p>
             </div>
             
-            <div class="wrapper">
-                <div class="container section-1__container">
-                    <div class="section-1__container--box">
+            <div class="wrapper container">
+                <div class="section-1__container colorY">
+                   <div class="section-1__container--box"> 
                         <img src="images/icon-modern.png" alt="Image of rotating arrows.">
                         <h4 class="heading-4 heading--contrast">Modern</h4>
                         <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
                     </div>
+                </div>
+
+                <div class="section-1__container colorP">
                     <div class="section-1__container--box">
                         <img src="images/icon-simple.png" alt="Image of flag.">
                         <h4 class="heading-4 heading--contrast">Simple</h4>
-                        <p class="paragraph">Non distinctio corrupti odio perferendis nihil, quis numquam harum dolorum.</p>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
                     </div>
+                </div>
+
+                <div class="section-1__container colorG">
                     <div class="section-1__container--box">
                         <img src="images/icon-flexible.png" alt="Image of desktop to mobile interchangeablility.">
                         <h4 class="heading-4  heading--contrast">Flexible</h4>
-                        <p class="paragraph">Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
                     </div>
                 </div>
-                <span class="quotation-marks heading--general">"</span>
-
             </div>
         </section>
 
         <section class="section-2">
-            <div class="">
+            <div class="insideWrapper">
                 <h2 class="heading-2">Our skills</h2>
-                <p class="paragraph heading__paragraph">AIR is focusing on <br> Web Design/ WP Development/ HTML Integration</p>
+                <p class="paragraph heading__paragraph">AIR is focusing on Web Design/ WP Development/ HTML Integration</p>
             </div>
-            <div class="wrapper">
-                <div class="container section-2__container">
-                    <div class="section-2__container--box">
-                        <img src="images/circle-1.png" alt="Image of rotating arrows.">
-                        <h4 class="heading-4  heading--contrast">Web Design</h4>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
-                    </div>
-                    <div class="section-2__container--box">
-                        <img src="images/circle-2.png" alt="Image of flag.">
-                        <h4 class="heading-4  heading--contrast">WordPress</h4>
-                        <p class="paragraph">Non distinctio corrupti odio perferendis nihil, quis numquam harum dolorum.</p>
-                    </div>
-                    <div class="section-2__container--box">
-                        <img src="images/circle-3.png" alt="Image of desktop to mobile interchangeablility.">
-                        <h4 class="heading-4  heading--contrast">jQuery</h4>
-                        <p class="paragraph">Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
-                    </div>
-                    <div class="section-2__container--box">
-                        <img src="images/circle-4.png" alt="Image of desktop to mobile interchangeablility.">
-                        <h4 class="heading-4  heading--contrast">HTML/CSS</h4>
-                        <p class="paragraph">Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
-                    </div>
+            <div class="wrapper container section-2__container">
+                <div class="section-2__container--box">
+                    <img src="images/circle-1.png" alt="Image of rotating arrows.">
+                    <h4 class="heading-4  heading--contrast">Web Design</h4>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
+                </div>
+                <div class="section-2__container--box">
+                    <img src="images/circle-2.png" alt="Image of flag.">
+                    <h4 class="heading-4  heading--contrast">WordPress</h4>
+                    <p class="paragraph">Non distinctio corrupti odio perferendis nihil, quis numquam harum dolorum.</p>
+                </div>
+                <div class="section-2__container--box">
+                    <img src="images/circle-3.png" alt="Image of desktop to mobile interchangeablility.">
+                    <h4 class="heading-4  heading--contrast">jQuery</h4>
+                    <p class="paragraph">Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
+                </div>
+                <div class="section-2__container--box">
+                    <img src="images/circle-4.png" alt="Image of desktop to mobile interchangeablility.">
+                    <h4 class="heading-4  heading--contrast">HTML/CSS</h4>
+                    <p class="paragraph">Ex, quod. Repudiandae facere iure impedit! Excepturi, cum! Nesciunt, dolorem.</p>
                 </div>
             </div>
         </section>
@@ -114,7 +118,7 @@
             </div>
             <div classs="section-4__main-image">
                 <img src="images/mockup-2.png" alt="example of web design on latest project">
-                <img src="images/mockup-3.png" alt="example of web design on latest project"></div>
+                <img src="images/mockup-3.png" alt="example of web design on latest project">
             </div>
         </section>
         <section class="section-5">
@@ -122,9 +126,9 @@
                 <h2 class="heading-2">Meet the team</h2>
                 <p class="paragraph heading__paragraph">A proud group of individuals who came together in a perfect unity to present you with this.</p>
             </div>
-            <div class="wrapper">
-                <div class="container section-5__container">
-                    <div class="section-5__container--box">
+            <div class="wrapper container section-5__container">
+                <div class="section-5__container--box">
+                    <div class="section-5__container--large colorP">
                         <img src="images/headshot-1.png" alt="Headshot of smiling staff member.">
                         <div class="section-5__container--icons">
                             <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
@@ -132,8 +136,10 @@
                             <a href="#"><i class="fab fa-pinterest-p fa-fw"></i></a>
                         </div>
                     </div>
+                </div>
                 
-                    <div class="section-5__container--box">
+                <div class="section-5__container--box">
+                    <div class="section-5__container--large colorP">
                         <img src="images/headshot-2.png" alt="Headshot of smiling staff member.">
                         <div class="section-5__container--icons">
                             <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
@@ -141,8 +147,10 @@
                             <a href="#"><i class="fab fa-pinterest-p fa-fw"></i></a>
                         </div>
                     </div>
+                </div>
                     
-                    <div class="section-5__container--box">
+                <div class="section-5__container--box">
+                    <div class="section-5__container--large colorP">
                         <img src="images/headshot-3.png" alt="Headshot of smiling staff member.">
                         <div class="section-5__container--icons">
                             <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
@@ -150,7 +158,9 @@
                             <a href="#"><i class="fab fa-flickr fa-fw"></i></a>
                         </div>
                     </div>
-                    <div class="section-5__container--box">
+                </div>
+                <div class="section-5__container--box">
+                    <div class="section-5__container--large colorP">
                         <img src="images/headshot-4.png" alt="Headshot of smiling staff member.">
                         <div class="section-5__container--icons">
                             <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
@@ -163,28 +173,26 @@
         </section>
         
         <section class="section-6">
-            <div class="wrapper">
-                <div class="container section-6__container">
-                    <div class="section-6__container--box">
-                        <img src="images/icon-1.png" alt="Person icon representing client.">
-                        <span class="span span__counter heading--general">2500</span>
-                        <span class="span span__counter--description">Happy clients</span>
-                    </div>
-                    <div class="section-6__container--box">
-                        <img src="images/icon-2.png" alt="Lightbulb icon representing projects made.">
-                        <span class="span span__counter heading--general">650</span>
-                        <span class="span span__counter--description">Projects made</span>
-                    </div>
-                    <div class="section-6__container--box">
-                        <img src="images/icon-3.png" class="section-6__container--padding" alt="Paper plane icon representing letters sent.">
-                        <span class="span span__counter heading--general">5780</span>
-                        <span class="span span__counter--description">Letters sent</span>
-                    </div>
-                    <div class="section-6__container--box">
-                        <img src="images/icon-4.png" class="section-6__container--padding" alt="Pencil icon representing briefs written.">
-                        <span class="span span__counter heading--general">3400</span>
-                        <span class="span span__counter--description">Briefs wrote</a>
-                    </div>
+            <div class="wrapper container section-6__container">
+                <div class="section-6__container--box">
+                    <img src="images/icon-1.png" alt="Person icon representing client.">
+                    <span class="span span__counter heading--general">2500</span>
+                    <span class="span span__counter--description">Happy clients</span>
+                </div>
+                <div class="section-6__container--box">
+                    <img src="images/icon-2.png" alt="Lightbulb icon representing projects made.">
+                    <span class="span span__counter heading--general">650</span>
+                    <span class="span span__counter--description">Projects made</span>
+                </div>
+                <div class="section-6__container--box">
+                    <img src="images/icon-3.png" class="section-6__container--padding" alt="Paper plane icon representing letters sent.">
+                    <span class="span span__counter heading--general">5780</span>
+                    <span class="span span__counter--description">Letters sent</span>
+                </div>
+                <div class="section-6__container--box">
+                    <img src="images/icon-4.png" class="section-6__container--padding" alt="Pencil icon representing briefs written.">
+                    <span class="span span__counter heading--general">3400</span>
+                    <span class="span span__counter--description">Briefs wrote</span>
                 </div>
             </div>
         </section>
@@ -205,7 +213,7 @@
             <div class="container container--large heading--general">
                 <figure class"section-7__figure">
                     <img src="images/portfolio-1.png" alt="Kopazito">
-                    <figcaption class="section-7__figcaption ">Kopazito</figcaption>
+                    <figcaption class="section-7__figcaption">Kopazito</figcaption>
                 </figure>
                 <figure class"section-7__figure">
                     <img src="images/portfolio-2.png" alt="I love picles">
@@ -246,36 +254,81 @@
             </div>
 
             <div class="container section-8__container">
-                <div class="container section-8__container--container-1">
-                    <img src="images/blog-1.png" alt="Post with image">
-                    <h4 class="heading-4  heading--contrast">Post with image</h4>
-                    <p class="paragraph heading--contrast">Dec 29, 2013</p>
-                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil temporibus consectetur blanditiis.</p>
+                <div class="section-8__container--box-height colorY">
+                    <div class="container section-8__container--container-1">
+                        <img src="images/blog-1.png" alt="Post with image">
+                        <h4 class="heading-4  heading--contrast">Post with image</h4>
+                        <p class="paragraph heading--contrast">Dec 29, 2013</p>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil temporibus consectetur blanditiis.</p>
+                        <div class="section-8__container--icons">
+                            <a href="#">
+                                <i class="fab fa-facebook-f fa-fw"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter fa-fw"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-google-plus-g fa-fw"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
     
                 <div class="container section-8__container--container-2">
-                    <div class="section-8__container--container-2--small-box clearfix">
-                        <img src="images/blog-2.png" alt="Post with video">
-                        <h4 class="heading-4  heading--contrast">Post with video</h4>
-                        <p class="paragraph heading--contrast">Dec 24, 2013</p>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+                    <div class="section-8__container--box-width colorP">
+                        <div class="section-8__container--container-2--small-box clearfix">
+                            <img src="images/blog-2.png" alt="Post with video">
+                            <div class="float">
+                                <h4 class="heading-4  heading--contrast">Post with video</h4>
+                                <p class="paragraph heading--contrast">Dec 24, 2013</p>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+                                <div class="section-8__container--icons">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f fa-fw"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter fa-fw"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g fa-fw"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
     
-                    <div class="section-8__container--container-2--small-box clearfix">
-                        <img src="images/blog-3.png" alt="Post with Slider">
-                        <h4 class="heading-4  heading--contrast">Post with Slider</h4>
-                        <p class="paragraph heading--contrast">Dec 17, 2013</p>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+                    <div class="section-8__container--box-width colorG">
+                        <div class="section-8__container--container-2--small-box clearfix">
+                            <img src="images/blog-3.png" alt="Post with Slider">
+                            <div class="float">
+                                <h4 class="heading-4  heading--contrast">Post with Slider</h4>
+                                <p class="paragraph heading--contrast">Dec 17, 2013</p>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+                                <div class="section-8__container--icons">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f fa-fw"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter fa-fw"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g fa-fw"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="wrapper"><a href="#" class="button button--light-font">View all</a></div>
+            <div class="wrapper">
+                <a href="#" class="button button--light-font">View all</a>
+            </div>
         </section>
         <section class="section-9">
             <div class="wrapper">
                 <h3 class="heading-3 heading--general heading--contrast">+91 544 567 8943</h3>
                 <h2 class="heading-2 button heading-2--contrast button--dark-font">info@simpleflex.com</h2>
-                <h4 class="heading-4 heading--contrast">8605 Santa Monica Blvd, Los Angeles, California 97845, US</h4>
+                <h4 class="heading-4 button--dark-font">8605 Santa Monica Blvd, Los Angeles, California 97845, US</h4>
             </div>
                 <img src="images/map.png" alt="Map showing location of Simple Flex.">
         </section>  

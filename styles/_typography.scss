@@ -1,6 +1,9 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 62.5%;
     color:#989898;
     font-weight: 300; 
     line-height: 30px; 
@@ -19,7 +22,7 @@ a:hover {
 
 // LINKS
 .main-nav__list__link {
-    @include font-size(13);
+    @include font-size(15); /* changed from 12 */
     color:#343434;
     line-height: 65px;
     text-decoration: none;
@@ -35,8 +38,8 @@ a:hover {
 // BUTTONS
 .button,
 input.submit--1 {
-    @include font-size(12);
-    font-weight: 500; /* changed from 700 to 500 */
+    @include font-size(15); /* changed from 12 */
+    font-weight: 700; /* changed from 700 to 500 */
     text-align: center;
     padding: 23px 50px;
     border: 5px solid #fff;
@@ -45,7 +48,7 @@ input.submit--1 {
 
 input.submit--2{
     @include font-size(12);
-    font-weight: 500; 
+    font-weight: 700; 
     color: #ff7070;
     border: 5px solid #ff7070;
     background: none;
@@ -68,15 +71,14 @@ input.submit--2{
 }
 
 .heading-1 {
-    @include font-size(78);/* changed from 80 to 78 */
-    letter-spacing: -15px;
+    @include font-size(80);/* changed from 80 to 78 */
     color: #343434;
-    line-height: 97px; /* changed from 65px to 97px */
+    line-height: 65px; /* changed from 65px to 97px */
     text-align: left;
 }
 
 .heading-2 {
-    @include font-size(52); /* changed from 60 to 52 */
+    @include font-size(60); /* changed from 60 to 52 */
     line-height: 65px;
     text-align: center;
     color: #fff;
@@ -90,19 +92,19 @@ input.submit--2{
 
 .heading-3 {
     font-family: 'Open Sans', sans-serif;
-    @include font-size(32); /* changed from 40 to 32 */
+    @include font-size(40); /* changed from 40 to 32 */
     line-height: 55px;
 }
 
 .heading-4 {
-    @include font-size(22); /* changed from 24 to 22 */
+    @include font-size(24); /* changed from 24 to 22 */
     text-align: center;
     margin: 10px auto;
 }
 
 // PARAGRAPHS
 .paragraph {
-    @include font-size(12); /* changed from 16 to 12 */
+    @include font-size(16); /* changed from 16 to 12 */
     line-height: 24px;
     text-align: center;
 }
@@ -119,9 +121,7 @@ input.submit--2{
     text-align: left;
 }
 
-
 // SPECIAL WORDS
-
 .span__heading-1--contrast {
     font-weight: 300;
 }
@@ -132,22 +132,21 @@ input.submit--2{
 
 .span--quotation {
     color: #343434;
-    @include font-size(52); /* changed from 60 to 52 */
-    line-height: 80px; /* changed from 55px */
+    @include font-size(60); 
+    line-height: 55px; 
     text-transform: none;
-    letter-spacing: -4px; /* added */
     text-align: center;
     display: block;
     position: relative;
-
 }
+
 .span--quotation:before {
     content:"“";
     @include font-size(140);
     color: white;
     position: absolute;
-    top:0px;
-    left:-100px;
+    top: 0px;
+    left: -100px;
 }
 
 .span--quotation:after {
@@ -160,8 +159,8 @@ input.submit--2{
 }
 
 .span--author {
-    @include font-size(32); /* changed from 40 to 32 */
-    line-height:80px; /* changed from 55px */
+    @include font-size(40); /* changed from 40 to 32 */
+    line-height: 55px; /* changed from 55px */
     text-transform: none;
     text-align: center;
     display:block;
@@ -186,10 +185,11 @@ input.submit--2{
 .span__counter--description {
     @include font-size(12);
     color: #343434;
+    font-weight: 700;
     line-height: 30px;
     border: 5px solid #fff;
     padding: 23px 40px;
-    width: 250px;
+    width: 200px;
     text-transform: uppercase;
 }
 
@@ -205,7 +205,6 @@ input.submit--2{
 .section-7__figcaption {
     color: #343434;
 }
-
 
 // APPLYING-WHITE
 .heading--contrast {
