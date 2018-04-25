@@ -208,6 +208,10 @@ input.submit--2 {
 .button--light-font {
   color: #fff; }
 
+@media (max-width: 550px) {
+  .section-8 .wrapper .button {
+    padding: 15px 20px; } }
+
 .heading--general {
   font-weight: 700;
   text-align: center;
@@ -222,6 +226,11 @@ input.submit--2 {
   line-height: 65px;
   /* changed from 65px to 97px */
   text-align: left; }
+  @media (max-width: 550px) {
+    .heading-1 {
+      font-size: 50px;
+      /* fall back px value */
+      font-size: 5rem; } }
 
 .heading-2 {
   font-size: 60px;
@@ -232,6 +241,11 @@ input.submit--2 {
   text-align: center;
   color: #fff;
   text-transform: uppercase; }
+  @media (max-width: 550px) {
+    .heading-2 {
+      font-size: 35px;
+      /* fall back px value */
+      font-size: 3.5rem; } }
 
 .heading-2--contrast {
   text-transform: lowercase;
@@ -244,6 +258,11 @@ input.submit--2 {
   font-size: 4rem;
   /* changed from 40 to 32 */
   line-height: 55px; }
+  @media (max-width: 550px) {
+    .heading-3 {
+      font-size: 25px;
+      /* fall back px value */
+      font-size: 2.5rem; } }
 
 .heading-4 {
   font-size: 24px;
@@ -252,6 +271,11 @@ input.submit--2 {
   /* changed from 24 to 22 */
   text-align: center;
   margin: 10px auto; }
+  @media (max-width: 550px) {
+    .heading-4 {
+      font-size: 20px;
+      /* fall back px value */
+      font-size: 2rem; } }
 
 .paragraph {
   font-size: 16px;
@@ -269,6 +293,11 @@ input.submit--2 {
   line-height: 30px;
   position: relative;
   padding-bottom: 50px; }
+  @media (max-width: 550px) {
+    .heading__paragraph {
+      font-size: 18px;
+      /* fall back px value */
+      font-size: 1.8rem; } }
 
 .heading__paragraph::after {
   content: "";
@@ -439,6 +468,10 @@ input.submit--2 {
     .main-header::after,
     .section-9 .wrapper::after {
       left: 47.9%; } }
+  @media (max-width: 550px) {
+    .main-header::after,
+    .section-9 .wrapper::after {
+      display: none; } }
 
 .section-3 {
   position: relative; }
@@ -460,6 +493,9 @@ input.submit--2 {
   @media (max-width: 1366px) {
     .section-3::after {
       left: 47.9%; } }
+  @media (max-width: 550px) {
+    .section-3::after {
+      display: none; } }
 
 .section-6 {
   position: relative; }
@@ -481,6 +517,9 @@ input.submit--2 {
   @media (max-width: 1366px) {
     .section-6::after {
       left: 47.9%; } }
+  @media (max-width: 550px) {
+    .section-6::after {
+      display: none; } }
 
 .section-5__container--icons .fa-fw,
 .section-8__container--icons .fa-fw,
@@ -795,9 +834,7 @@ label i.fa-fw {
     margin-right: 5px; }
 
 .footer-section-2__container-4 img {
-  max-width: 100%;
-  height: 100%;
-  margin: 0; }
+  width: 100%; }
 
 .footer-section-3 {
   text-align: center;

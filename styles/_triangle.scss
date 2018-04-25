@@ -20,6 +20,9 @@
     @media (max-width: 1366px) {
         left: 47.9%;
     }
+    @media (max-width: 550px) {
+    display: none;
+    }
 }
 .section-3 {
     position: relative;
@@ -39,6 +42,9 @@
     transform: rotateZ(-45deg);
     @media (max-width: 1366px) {
         left: 47.9%;
+    }
+    @media (max-width: 550px) {
+    display: none;
     }
 }
 
@@ -60,5 +66,8 @@
     transform: rotateZ(-45deg);
     @media (max-width: 1366px) {
         left: 47.9%;
+    }
+    @media (max-width: 550px) {
+    display: none;
     }
 }

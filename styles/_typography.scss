@@ -63,6 +63,12 @@ input.submit--2{
     color: #fff;
 }
 
+.section-8 .wrapper .button{
+    @media (max-width: 550px) {
+        padding: 15px 20px;
+    }
+}
+
 // HEADING
 .heading--general {
     font-weight: 700;
@@ -75,6 +81,9 @@ input.submit--2{
     color: #343434;
     line-height: 65px; /* changed from 65px to 97px */
     text-align: left;
+    @media (max-width: 550px) {
+        @include font-size(50);
+    }
 }
 
 .heading-2 {
@@ -83,6 +92,9 @@ input.submit--2{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+    @media (max-width: 550px) {
+        @include font-size(35);
+    }
 }
 
 .heading-2--contrast{
@@ -94,12 +106,19 @@ input.submit--2{
     font-family: 'Open Sans', sans-serif;
     @include font-size(40); /* changed from 40 to 32 */
     line-height: 55px;
+    @media (max-width: 550px) {
+        @include font-size(25);
+    }
+    
 }
 
 .heading-4 {
     @include font-size(24); /* changed from 24 to 22 */
     text-align: center;
     margin: 10px auto;
+    @media (max-width: 550px) {
+        @include font-size(20);
+    }
 }
 
 // PARAGRAPHS
@@ -114,6 +133,9 @@ input.submit--2{
     line-height: 30px;
     position: relative;
     padding-bottom: 50px;
+    @media (max-width: 550px) {
+        @include font-size(18);
+    }
 }
 
 .heading__paragraph::after {
