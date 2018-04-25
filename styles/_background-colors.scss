@@ -1,9 +1,12 @@
 // BACKGROUND COLORS
-.main-header, .section-9 {
+.main-header, 
+.section-9, 
+.section-9--responsive {
     @include background(#fbd061,#f3ca5e);
 }
 
  .main-nav,
+ .nav--responsive,
  .footer-section-2 {
     @include background(#fff, #fafafa);
 }
@@ -32,14 +35,3 @@
     @include background(#a9d264, #a4cb61);
 }
 
-.colorY {
-    background: #fbd061;
-}
-
-.colorG {
-    background: #a9d264;;
-}
-
-.colorP {
-    background: #ff7070;
-}

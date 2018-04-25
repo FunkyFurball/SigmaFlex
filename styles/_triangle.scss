@@ -1,9 +1,11 @@
 //  TRIANGLE
-.main-header {
+.main-header,
+.section-9 .wrapper {
     position: relative;
 }
 
-.main-header::after {
+.main-header::after,
+.section-9 .wrapper::after {
     content: "";
     width: 0;
     height: 0;
@@ -15,6 +17,9 @@
     top: calc(100% - 25px);
     left: 48.6%;
     transform: rotateZ(-45deg);
+    @media (max-width: 1366px) {
+        left: 47.9%;
+    }
 }
 .section-3 {
     position: relative;
@@ -32,6 +37,9 @@
     top: calc(100% - 25px);
     left: 48.6%;
     transform: rotateZ(-45deg);
+    @media (max-width: 1366px) {
+        left: 47.9%;
+    }
 }
 
 .section-6 {
@@ -50,4 +58,7 @@
     top: calc(100% - 25px);
     left: 48.6%;
     transform: rotateZ(-45deg);
+    @media (max-width: 1366px) {
+        left: 47.9%;
+    }
 }

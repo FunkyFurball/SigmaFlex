@@ -10,7 +10,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-    <header class="main-header" id="home">
+   <header class="main-header" id="home">
         <nav class="main-nav">
             <div class="wrapper">
                 <a href="#home" class="main-nav__logo">
@@ -26,6 +26,35 @@
                 </ul>
             </div>
         </nav>
+        
+        <nav class="nav--responsive">
+            <div class="wrapper">
+                <a href="#home" class="main-nav__logo">
+                    <img src="images/logo.png" alt="Simple Flex logo">
+                </a>
+                <label for="toggle" name="toggle">
+                    <i class="fas fa-bars fa-fw"></i>
+                </label>
+                <input type="checkbox" id="toggle" name="toggle">
+                    <ul class="nav--responsive-list">
+                        <li>
+                            <a href="#home" class="main-nav__list__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="main-nav__list__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="main-nav__list__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="main-nav__list__link">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="main-nav__list__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         <div class="wrapper">
             <div class="main-header__container">
                 <div class="main-header__container__container-1">
@@ -43,34 +72,26 @@
 
     <main>
         <section class="section-1" id="about">
-            <div class="insideWrapper">
+            <div class="insideWrapper section-1__container">
                 <h2 class="heading-2">About us</h2>
                 <p class="paragraph heading__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A commodi, at id ad mollitia dolorum maxime!</p>
             </div>
             
             <div class="wrapper container">
-                <div class="section-1__container colorY">
-                   <div class="section-1__container--box"> 
-                        <img src="images/icon-modern.png" alt="Image of rotating arrows.">
-                        <h4 class="heading-4 heading--contrast">Modern</h4>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
-                    </div>
+                <div class="section-1__container--box section-1__container--box-1"> 
+                    <img src="images/icon-modern.png" alt="Image of rotating arrows.">
+                    <h4 class="heading-4 heading--contrast">Modern</h4>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
                 </div>
-
-                <div class="section-1__container colorP">
-                    <div class="section-1__container--box">
-                        <img src="images/icon-simple.png" alt="Image of flag.">
-                        <h4 class="heading-4 heading--contrast">Simple</h4>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
-                    </div>
+                <div class="section-1__container--box section-1__container--box-2">
+                    <img src="images/icon-simple.png" alt="Image of flag.">
+                    <h4 class="heading-4 heading--contrast">Simple</h4>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
                 </div>
-
-                <div class="section-1__container colorG">
-                    <div class="section-1__container--box">
-                        <img src="images/icon-flexible.png" alt="Image of desktop to mobile interchangeablility.">
-                        <h4 class="heading-4  heading--contrast">Flexible</h4>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
-                    </div>
+                <div class="section-1__container--box section-1__container--box-3">
+                    <img src="images/icon-flexible.png" alt="Image of desktop to mobile interchangeablility.">
+                    <h4 class="heading-4  heading--contrast">Flexible</h4>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iure!</p>
                 </div>
             </div>
         </section>
@@ -128,45 +149,39 @@
             </div>
             <div class="wrapper container section-5__container">
                 <div class="section-5__container--box">
-                    <div class="section-5__container--large colorP">
-                        <img src="images/headshot-1.png" alt="Headshot of smiling staff member.">
-                        <div class="section-5__container--icons">
-                            <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
-                            <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p fa-fw"></i></a>
-                        </div>
+                    <img src="images/headshot-1.png" alt="Headshot of smiling staff member.">
+                    <div class="section-5__container--icons">
+                        <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p fa-fw"></i></a>
                     </div>
                 </div>
                 
+                
                 <div class="section-5__container--box">
-                    <div class="section-5__container--large colorP">
-                        <img src="images/headshot-2.png" alt="Headshot of smiling staff member.">
-                        <div class="section-5__container--icons">
-                            <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
-                            <a href="#"><i class="fab fa-dribbble fa-fw"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p fa-fw"></i></a>
-                        </div>
+                    <img src="images/headshot-2.png" alt="Headshot of smiling staff member.">
+                    <div class="section-5__container--icons">
+                        <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                        <a href="#"><i class="fab fa-dribbble fa-fw"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p fa-fw"></i></a>
                     </div>
                 </div>
                     
                 <div class="section-5__container--box">
-                    <div class="section-5__container--large colorP">
-                        <img src="images/headshot-3.png" alt="Headshot of smiling staff member.">
-                        <div class="section-5__container--icons">
-                            <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
-                            <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
-                            <a href="#"><i class="fab fa-flickr fa-fw"></i></a>
-                        </div>
+                    <img src="images/headshot-3.png" alt="Headshot of smiling staff member.">
+                    <div class="section-5__container--icons">
+                        <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                        <a href="#"><i class="fab fa-flickr fa-fw"></i></a>
                     </div>
                 </div>
+
                 <div class="section-5__container--box">
-                    <div class="section-5__container--large colorP">
-                        <img src="images/headshot-4.png" alt="Headshot of smiling staff member.">
-                        <div class="section-5__container--icons">
-                            <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
-                            <a href="#"><i class="fab fa-google-plus-g fa-fw"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
-                        </div>
+                    <img src="images/headshot-4.png" alt="Headshot of smiling staff member.">
+                    <div class="section-5__container--icons">
+                        <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g fa-fw"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
                     </div>
                 </div>
             </div>
@@ -254,72 +269,51 @@
             </div>
 
             <div class="container section-8__container">
-                <div class="section-8__container--box-height colorY">
-                    <div class="container section-8__container--container-1">
-                        <img src="images/blog-1.png" alt="Post with image">
+                <div class="container section-8__container--container-1">
+                    <img src="images/blog-1.png" alt="Post with image">
+                    <div class="article">
                         <h4 class="heading-4  heading--contrast">Post with image</h4>
                         <p class="paragraph heading--contrast">Dec 29, 2013</p>
                         <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil temporibus consectetur blanditiis.</p>
                         <div class="section-8__container--icons">
-                            <a href="#">
-                                <i class="fab fa-facebook-f fa-fw"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fab fa-twitter fa-fw"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fab fa-google-plus-g fa-fw"></i>
-                            </a>
+                            <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g fa-fw"></i></a>
                         </div>
                     </div>
                 </div>
     
                 <div class="container section-8__container--container-2">
-                    <div class="section-8__container--box-width colorP">
-                        <div class="section-8__container--container-2--small-box clearfix">
-                            <img src="images/blog-2.png" alt="Post with video">
-                            <div class="float">
-                                <h4 class="heading-4  heading--contrast">Post with video</h4>
-                                <p class="paragraph heading--contrast">Dec 24, 2013</p>
-                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
-                                <div class="section-8__container--icons">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f fa-fw"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-twitter fa-fw"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-google-plus-g fa-fw"></i>
-                                    </a>
-                                </div>
+                    <div class="section-8__container--container-2--small-box">
+                        <img src="images/blog-2.png" alt="Post with video">
+                        <div class="article">
+                            <h4 class="heading-4  heading--contrast">Post with video</h4>
+                            <p class="paragraph heading--contrast">Dec 24, 2013</p>
+                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+                            <div class="section-8__container--icons">
+                                <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                                <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g fa-fw"></i></a>
                             </div>
                         </div>
                     </div>
     
-                    <div class="section-8__container--box-width colorG">
-                        <div class="section-8__container--container-2--small-box clearfix">
-                            <img src="images/blog-3.png" alt="Post with Slider">
-                            <div class="float">
-                                <h4 class="heading-4  heading--contrast">Post with Slider</h4>
-                                <p class="paragraph heading--contrast">Dec 17, 2013</p>
-                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
-                                <div class="section-8__container--icons">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f fa-fw"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-twitter fa-fw"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-google-plus-g fa-fw"></i>
-                                    </a>
-                                </div>
+                    <div class="section-8__container--container-2--small-box">
+                        <img src="images/blog-3.png" alt="Post with Slider">
+                        <div class="article">
+                            <h4 class="heading-4  heading--contrast">Post with Slider</h4>
+                            <p class="paragraph heading--contrast">Dec 17, 2013</p>
+                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas magni harum fugit!</p>
+                            <div class="section-8__container--icons">
+                                <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                                <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g fa-fw"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="wrapper">
                 <a href="#" class="button button--light-font">View all</a>
             </div>
@@ -332,6 +326,14 @@
             </div>
                 <img src="images/map.png" alt="Map showing location of Simple Flex.">
         </section>  
+
+        <section class="section-9--responsive">
+            <div class="wrapper">
+                <a href="tel:+91 544 567 8943" title="Telephone Number"><i class="fas fa-phone fa-fw"></i></a>
+                <a href="mailto:info@simpleflex.com" title="E-mail Address"><i class="fas fa-at fa-fw"></i></a>
+                <a href="#" title="Office Address"><i class="fas fa-map-marker-alt fa-fw"></i></a>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -403,7 +405,8 @@
                     <h4 class="heading-4 paragraph--left-align paragraph--dark">Our Newsletter</h4>
                     <p class="paragraph paragraph--left-align">Please subscribe to our latest news to be updated</p>
                     <form action="" method="POST" name="newsletter">
-                        <input type="text">
+                        <label for="e-mail" class="visuallyhidden">E-mail</label>
+                        <input type="text" name="e-mail" placeholder="E-mail address">
                         <input type="submit" value="send" class="submit--2">
                     </form>
                 </div>

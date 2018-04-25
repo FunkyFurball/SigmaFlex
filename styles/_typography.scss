@@ -22,7 +22,7 @@ a:hover {
 
 // LINKS
 .main-nav__list__link {
-    @include font-size(15); /* changed from 12 */
+    @include font-size(20   ); /* changed from 12 */
     color:#343434;
     line-height: 65px;
     text-decoration: none;
@@ -112,7 +112,20 @@ input.submit--2{
 .heading__paragraph {
     @include font-size(20); /* changed from 20 to 18 */
     line-height: 30px;
+    position: relative;
+    padding-bottom: 50px;
 }
+
+.heading__paragraph::after {
+    content:"";
+    border-bottom: 3px solid #989898;
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    left: 40%;
+    top: 70%;
+}
+
 .paragraph--dark {
     color: #242424;
 }
@@ -188,8 +201,9 @@ input.submit--2{
     font-weight: 700;
     line-height: 30px;
     border: 5px solid #fff;
-    padding: 23px 40px;
-    width: 200px;
+    padding: 23px 25px;
+    width: 170px;
+    text-align: center;
     text-transform: uppercase;
 }
 
